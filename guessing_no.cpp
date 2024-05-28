@@ -6,11 +6,11 @@
 using namespace std;
 
 
-// Random Number : Choosen by Computer
+
 int main(){
 
    
-    
+    // Random Number : Choosen by Computer
     // for generating random numbers by computer
 
 
@@ -23,9 +23,9 @@ int main(){
     
 
    
-    cout<<"\n\t\t\t\t\t    Welcome To the Guessing Game!"<<endl;
+    cout<<"\n\t\t\t\t\t    Welcome To the Guessing Game!                "<<endl;
     cout<<"\n You have to Guess a Number between 1 and 100 . You'll have limited choices based on the Difficulty Level you choose ."<<endl;
-    cout<<" Good luck !!! "<<endl;
+    cout<<" \t\t\t\t\t\t      Good luck !!! "<<endl;
 
 
     while(true){
@@ -52,8 +52,8 @@ int main(){
                 cin>>playerChoice;
                 if(playerChoice == secrandom){
                     cout<<"\n Well Played !! You Won!! "<<playerChoice<<"is the secret number "<<endl;
-                    cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                    cout<<"\t\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
+                    cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                    cout<<"\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
                     break;
                 }
                 else{
@@ -75,8 +75,8 @@ int main(){
 
                     if(choicesleft == 0){
                         cout<<"You couldn't find the secret number , it was "<<secrandom<<",   You lose !! \n \n ";
-                        cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                        cout<<"\t\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
+                        cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                        cout<<"\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
                         
 
                     }
@@ -96,8 +96,8 @@ int main(){
                 cin>>playerChoice;
                 if(playerChoice == secrandom){
                     cout<<"\n Well Played !! You Won!!  "<<playerChoice<<"  is the secret number "<<endl;
-                    cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                    cout<<"\t\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
+                    cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                    cout<<"\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
                     break;
                 }
                 else{
@@ -119,8 +119,8 @@ int main(){
 
                     if(choicesleft == 0){
                         cout<<"You couldn't find the secret number , it was "<<secrandom<<",  You LOSE  the Game  !! \n \n ";
-                        cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                        cout<<"\t\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
+                        cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                        cout<<"\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
                         
 
                     }
@@ -139,31 +139,31 @@ int main(){
                 cin>>playerChoice;
                 if(playerChoice == secrandom){
                     cout<<"\n Well Played !! You Won!! "<<playerChoice<<"  is the secret number "<<endl;
-                    cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                    cout<<"\t\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
+                    cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                    cout<<"\t\t\t\t  Play the Game Again with Us !! \n\n "<<endl;
                     break;
                 }
                 else{
 
-                     cout<<"Nope , "<<playerChoice<<" is not the right number "<<endl; 
+                     cout<<"Nope , "<<playerChoice<<"  is not the right number  "<<endl; 
                      
 
                      if(playerChoice > secrandom){
-                        cout<<"\n Your Choice is Greater than the Secret Number "<<endl;
+                        cout<<"\n Your Choice is Greater than the Secret Number  "<<endl;
                         choicesleft--;
                         cout<<" You have "<<choicesleft<<" choices left "<<endl;
 
                     }
                     else {
-                        cout<<"\n Your Choice is Smaller than the Secret Number "<<endl;
+                        cout<<"\n Your Choice is Smaller than the Secret Number  ."<<endl;
                         choicesleft--;
-                        cout<<" You have "<<choicesleft<<" choices left. "<<endl;
+                        cout<<" You have "<<choicesleft<<" choices left . "<<endl;
                     }
 
                     if(choicesleft == 0){
-                        cout<<"You couldn't find the secret number , it was "<<secrandom<<",  You lose !! \n \n ";
-                        cout<<"\t\t\t\t\t  Thanks for playing ......" << endl;
-                        cout<<"\t\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
+                        cout<<"You couldn't find the secret number , it was "<<secrandom<<",  You lOSE the Game !! \n \n ";
+                        cout<<"\t\t\t\t  Thanks for playing ......" << endl;
+                        cout<<"\t\t\t\t  Play the Game Again to win !! \n\n "<<endl;
                         
 
                     }
@@ -177,7 +177,7 @@ int main(){
             exit(0);
         }
         else{
-            cout<<"Wrong choice,Enter the valid choice to play the game ! (0,1,2,3)"<<endl;
+            cout<<"\n\n Wrong choice,Enter the valid choice to play the game ! (0,1,2,3)"<<endl;
         }
 
     
